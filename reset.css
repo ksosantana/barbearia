@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+    ul{ 
+    list-style: none;
+}   
+
+.botao {
+    background-color: #007bff; /* Azul */
+    color: #fff; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Garante que o botão tenha uma largura apenas do tamanho do conteúdo */
+}
+
+.botaoA {
+    color: inherit; /* Herda a cor do texto do botão */
+}
