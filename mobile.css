@@ -1,34 +1,66 @@
-@media (max-width: 1000px) {
-/* Estilos padrão para todos os tamanhos de tela */
-.video-tabela video {
+body{
+    margin: 0;
+    padding: auto;
+}
+.video-tabela {
+    top: 10%;
+    position: relative; 
+    width: 100%;
+}
+
+.video {
+    margin: 0;
+   
+    position: absolute;
     width: 100%;
 }
 
 .botao {
-    padding: 1em 2em; /* Ajuste conforme necessário para o tamanho do botão */
-    font-size: 1.2em; /* Ajuste conforme necessário para o tamanho do texto do botão */
+    position: absolute;
+   
+    left: 77%; 
 }
-
-/* Media query para telas menores que 600 pixels de largura */
-@media screen and (max-width: 600px) {
-    .video-tabela video {
-        width: 80%; /* Ajuste conforme necessário para telas menores */
+@media  (min-width: 699px){
+    body{
+        margin: 0;
+        position: relative;
     }
+    .video-tabela{
+        top: 0%;
 
+        text-align: center;
+        width: 100%;
+
+    }
     .botao {
-        padding: 0.5em 1em; /* Ajuste conforme necessário para o tamanho do botão em telas menores */
-        font-size: 1em; /* Ajuste conforme necessário para o tamanho do texto do botão em telas menores */
+        position: absolute;
+        top: 10%;
+       
+        left: 77%;
+        padding: 09px 20px; 
     }
 }
+@media screen and (max-width: 700px) {
+    body{
+        margin: 0;
+        position: relative;
+    }
+    .video-tabela{
+        top: 10%;
+        
+        text-align: center;
+        width: 100%;
 
-/* Media query para telas maiores que 600 pixels de largura */
-@media screen and (min-width: 601px) {
+    }
     .video-tabela video {
-        width: 60%; /* Ajuste conforme nec"essário para telas maiores */
+        width: 80%; 
     }
-
     .botao {
-        padding: 1em 2em; /* Ajuste conforme necessário para o tamanho do botão em telas maiores */
-        font-size: 1.2em; /* Ajuste conforme necessário para o tamanho do texto do botão em telas maiores */
-    }
+        position: absolute;
+        top: 18%;
+       
+        left: 67%; 
+        padding: 9px 10px; 
+        font-size: 14px;
+}
 }
