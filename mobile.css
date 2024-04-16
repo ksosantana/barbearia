@@ -2,7 +2,7 @@
         margin: 0;
         position: relative;
     }
-@media only screen and  (max-width: 1000px) {
+@media (max-width: 1000px) {
    
     .video-tabela {
         top: 10%;
@@ -17,19 +17,17 @@
 
     .botao {
         top: 10%;
-        left: 68%;
+        left: 70%;
     }
 }
- @media only screen and  (max-width: 500px) {
+ @media (max-width: 500px) {
     .botao {
         padding: 7px 5px;
-        font-size: 12px;
+        font-size:15px;
     }
 }
-@media only screen and (max-width: 365px) {
+@media (max-width: 365px) {
     .botao {
-        padding: 5px 8px;
-        font-size: 9px;
+        padding: 9px 20px;
     }
 }
-    

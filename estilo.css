@@ -39,7 +39,7 @@ body {
     position: absolute;
     top: 11%;
     left: 80%; /* Ajuste conforme necessário */
-    background-color: #dd940b3f;
+    background-color: #91691f3f;
     color: #fff;
     padding: 15px;
     font-size: 30px;
@@ -83,19 +83,6 @@ body {
     left: 0 ; 
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8725806451612903) 50%, rgba(0,0,0,1) 100%);
 }
-.video-tabela {
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-
-.video {
-    display: block;
-    width: 100%;
-}
-
-.imagem-tabela {
-    display: none; /* Inicialmente esconde a imagem */
-    width: 100%;
-    height: auto;
+.imgem-tabela{
+    display: none;
 }
