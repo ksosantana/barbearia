@@ -35,3 +35,11 @@
         font-size: 12px;
     }
 }  
+@media not all and (min-resolution: .001dpcm) { /* Alguns navegadores não suportam 'not', então incluímos 'all' */
+    .video {
+        display: none; /* Oculta o vídeo */
+    }
+    .imagem-tabela {
+        display: block; /* Exibe a imagem de fallback */
+    }
+}
