@@ -68,7 +68,6 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center ;
-
  }
  .video-fundo .video {
     height: 100vh;
@@ -83,7 +82,7 @@ body {
     left: 0 ; 
 background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8725806451612903) 50%, rgba(0,0,0,1) 100%);
 }
-.imagem-tabela {
+.imagem-tabela{
     max-width: 100%;
     height: auto;
     -webkit-touch-callout: none; /* Desabilita o menu de contexto ao tocar e manter pressionado */
@@ -91,4 +90,3 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,
     -webkit-user-drag: none; /* Impede a arrastar da imagem */
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* Remove o destaque padrão de toque */
 }
-
