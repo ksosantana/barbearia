@@ -7,7 +7,6 @@
     ul{ 
     list-style: none;
 }   
-
 .botao {
     background-color: #007bff; /* Azul */
     color: #fff; /* Texto branco */
@@ -22,3 +21,4 @@
 .botaoA {
     color: inherit; /* Herda a cor do texto do botão */
 }
+
