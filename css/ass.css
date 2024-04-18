@@ -1,27 +1,108 @@
-.barra-navegacao {
-    background-color: #333; /* Cor de fundo da barra de navegação */
-    padding: 10px 0; /* Espaçamento interno */
-}
-
-.barra-navegacao ul {
-    list-style-type: none; /* Remove os marcadores de lista */
+body {
+    font-family: 'poppins';
     margin: 0;
     padding: 0;
-    text-align: center; /* Centraliza os itens da barra de navegação */
+}
+ul{
+    display: none;
+}
+.botoes {
+    position: absolute;
+    top: 11%;
+    left: 80%; /* Ajuste necessário para telas com diferentes proporções */
+    background-color: #91691f3f;
+    color: #fff;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20%;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all ease-in-out;
+    z-index: 999;
 }
 
-.barra-navegacao li {
-    display: inline; /* Exibe os itens da lista horizontalmente */
-    margin-right: 20px; /* Espaçamento entre os itens */
+.botao {
+    text-decoration: none;
+    color: inherit;
 }
 
-.barra-navegacao a {
-    color: white; /* Cor do texto dos links */
-    text-decoration: none; /* Remove sublinhado dos links */
-    font-size: 16px; /* Tamanho do texto */
-    padding: 10px; /* Espaçamento interno dos links */
+.botao:hover {
+    transform: scale(1.1);
+}
+.imagem-fundo {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 0, 0); /* Cor de fundo de backup */
 }
 
-.barra-navegacao a:hover {
-    background-color: #555; /* Cor de fundo dos links ao passar o mouse */
+.imagem-fundo .video {
+    height: 100vh;
 }
+
+.imagem-fundo::after {
+    content: "";
+    background-color: #242323;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,0.8725806451612903) 50%, rgba(0,0,0,1) 100%);
+}
+
+.botao {
+    background-color: #a0a0a0; /* Azul */
+    color: #ffffff; /* Texto branco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Garante que o botão tenha uma largura apenas do tamanho do conteúdo */
+}
+
+.botaoA {
+    color: inherit; /* Herda a cor do texto do botão */
+}
+.cards-container {
+    padding-top: 500px; /* Ajuste conforme necessário */
+    display: flex;
+    flex-wrap: wrap; /* Permite que os cards sejam distribuídos em várias linhas */
+    justify-content: center; /* Centraliza os cards horizontalmente */
+}
+
+.card {
+    margin: auto;
+    width: 100%;
+    text-align: center; /* Centraliza o conteúdo dentro do card */
+    border-radius: 10%;
+    border: none;
+}
+
+.card-img-top {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do card */
+    height:10%; /* Permite que a altura da imagem seja ajustada automaticamente */
+}
+.card-titulo{
+    color: #524e4e;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-texto{
+    text-align: left;
+    font-size: 20px;
+}
+.btn-card{
+    border-bottom: #242323;
+    border-radius: 10%;
+    ;
+}
+
+

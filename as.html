@@ -2,65 +2,79 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">]
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinaturas</title>
     <link rel="shortcut icon" href="./barbearia-fivecon/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/ass.css">
-    <title>Assinaturas</title>
 </head>
 <body>
     <header>
-            <nav class="barra-navegacao">
-                <ul>
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#tabela">Tabela de Valores</a></li>
-                </ul>
-            </nav>   
+        <nav class="barra-navegacao">
+            <ul class="botoes">
+                <button class="botao"><a href="#inicio">Início</a></button>
+                <button class="botao"><a href="#tabela">Tabela de Valores</a></button>
+            </ul>
+        </nav>   
     </header>
     <main>
         <div class="imagem-fundo">
-            <img class="imagem" src="./img/imagem-fundo.png">
+            <img src="./img/imagem-fundo.png">
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
-           <div class="card-body">
-             <h5 class="card-title">Corte ilimitado</h5>
-             <p class="card-text">Podendo cortar quantas vezes quiser. <br>
-                R$ 00,00/mês
-             </p>
-             <a href="#" class="btn btn-primary">Assinar</a>
-           </div>
+        <div class="cards-container">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-titulo">Corte ilimitado</h5>
+                            <p class="card-texto">Podendo cortar quantas vezes quiser. <br>
+                            R$ 00,00/mês
+                            </p>
+                            <a href="#" class="btn-card">Assinar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-titulo">Barba Ilimitado</h5>
+                            <p class="card-texto">Podendo cortar quantas vezes quiser. <br>
+                            R$ 00,00/mês
+                            </p>
+                            <a href="#" class="btn-card">Assinar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-titulo">Corte e Barba ilimitado</h5>
+                            <p class="card-texto">Podendo cortar quantas vezes quiser.
+                            </p>
+                            <a href="#" class="btn-card">Assinar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card mb-3">
+                        <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-titulo">Corte e Barba limitado</h5>
+                            <p class="card-texto">tendo direito a fazer 2 barbas no mês <br>
+                            R$ 00,00/mês
+                            </p>
+                            <a href="#" class="btn-card">Assinar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
-           <div class="card-body">
-             <h5 class="card-title">Barba Ilimitado</h5>
-             <p class="card-text">Podendo cortar quantas vezes quiser. <br>
-                R$ 00,00/mês
-             </p>
-             <a href="#" class="btn btn-primary">Assinar</a>
-           </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
-           <div class="card-body">
-             <h5 class="card-title">Corte e Barba ilimitado</h5>
-             <p class="card-text">Podendo cortar quantas vezes quiser.
-             </p>
-             <a href="#" class="btn btn-primary">Assinar</a>
-           </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="./img/imagem-barbearia.jpg" class="card-img-top" alt="...">
-           <div class="card-body">
-            <h5 class="card-title">Corte e Barba limitado</h5>
-            <p class="card-text">tendo direito a fazer 2 barbas no mês <br>
-               R$ 00,00/mês
-            </p>
-             <a href="#" class="btn btn-primary">Assinar</a>
-           </div>
-         </div>
     </main>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
